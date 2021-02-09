@@ -10,5 +10,20 @@ body {
 /**************** footer styles ****************/
 footer {
 	border-top: solid thin #D1CECE;
+	margin-top: 90px;
+	padding-top: 50px;
+}
 
+footer .footer-nav .nav-link {
+	color: #4E4E4E;
+}
+
+footer .footer-nav .nav-link:hover {
+	color: #989898;
+	border-top: thin solid #496A86;
+}
+
+footer .footer-content p {
+	text-align: center;
+	font-size: 12px;
 }
